@@ -1,1 +1,59 @@
 @import "bootstrap";
+
+.header-row {
+	background-color: #efefef;
+}
+
+.pocky-header {
+	h1 {
+		margin: 5px 0;
+		font-size: 28px;
+		font-weight: normal;
+	}
+}
+
+.pocky-main {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #efefef;
+	h1 {
+		font-size: 34px;
+		line-height: 1.35;
+	}
+}
+
+.sub-header {
+	margin-top: 20px;
+}
+
+.input-group {
+	margin-bottom: 10px;
+}
+
+.form-control {
+	font-size: 18px;
+}
+
+.notify-button {
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px 20px;
+  border: 0px solid #005580;
+  background: #0078a4;
+  color: #fafafa;
+  text-shadow: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+}
+
+.notify-button:hover {
+	color: #fff;
+	text-decoration: none;
+  background: #005580;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+}
